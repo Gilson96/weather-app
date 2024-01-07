@@ -36,8 +36,8 @@ function App() {
       
       {toggle && <WeatherCard
           temp={data.main?.temp}
-          description={data.weather[0].description}
-          icon={data.weather[0].icon}
+          description={data.weather[0]?.description}
+          icon={data.weather[0]?.icon}
           city={data.name}
           country={data.sys?.country}
           temp_max={data.main?.temp_max}
