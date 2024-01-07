@@ -24,7 +24,7 @@ const WeatherCard = ({ temp, description, city, country, temp_max, temp_min, hum
         <p className='font-bold text-2xl'>{city}, {country}</p>
       </div>
 
-      <h1 className='absolute bottom-60 left-44 font-bold'>Weather Info</h1>
+      <h1 className='absolute bottom-60 font-bold'>Weather Info</h1>
 
       <div className='flex flex-wrap w-10/12 h-40 justify-between items-center gap-6 p-4'>
         
