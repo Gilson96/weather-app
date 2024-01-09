@@ -8,3 +8,7 @@ module.exports = {
   },
   plugins: [],
 }
+
+public/index.html
+
+<script src="https://cdn.tailwindcss.com"></script>
